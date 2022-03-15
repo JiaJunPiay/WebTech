@@ -1,0 +1,28 @@
+table{
+    text-align: center;
+}
+th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blue;
+    font-size: larger;
+}
+tr{
+    text-align: center;
+}
+legend{
+    font-size: 200%;
+    color:darkred;
+}
+label{
+    color:pink;
+}
+
+
+
+h1{
+    color:green
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightskyblue;
+}

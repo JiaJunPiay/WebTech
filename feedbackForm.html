@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body align="center">
+    <h1 align="center" style="font-size: 5vw;">Feedback Form</h1>
+    <form action="success.html">
+        <table align="center" width="50%" style="font-family: Arial, Helvetica, sans-serif;">
+            <tr>
+                <td><label><strong>Name</strong></label></td>
+                <td><input type="text" name="name" placeholder="Enter name" required /></td>
+            </tr>
+            <tr>
+                <td><label><strong>Date of Birth</strong></label></td>
+                <td><input type="date" name="name" placeholder="Enter date" max="2021-01-01" required /></td>
+            </tr>
+            <tr>
+                <td><label><strong>Email</strong></label></td>
+                <td><input type="email" name="name" placeholder="Enter email" required /></td>
+            </tr>
+            <tr>
+                <td><strong>Feedback Options</strong></td>
+                <td>
+                    <select name="ddl">
+                        <option value="ddl1">Staff</option>
+                        <option value="ddl2">Service</option>
+                        <option value="ddl3">Others</option>
+                    </select> 
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Enter Feedback Here</strong></td>
+                <td><textarea name="fbarea" placeholder="Please write your feedback here" required></textarea></td>
+            </tr>
+            <tr>
+                <td><strong>Upload File</strong></td>
+                <td><input type="file" name="Reset" placeholder="Enter date" /></td>
+            </tr>
+            <tr>
+                <td><input type="reset" name="Reset" placeholder="Enter date" /></td>
+                <td><input type="submit" name="Submit" placeholder="Enter date" required /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
