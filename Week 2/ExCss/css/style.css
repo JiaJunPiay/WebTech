@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;500;600&family=Patrick+Hand&display=swap');
+
 table{
     text-align: center;
 }
 th{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Patrick Hand', cursive;
     color:blue;
     font-size: larger;
 }
@@ -17,6 +20,11 @@ label{
     color:pink;
 }
 
+body{
+    height:100%;
+    background-image: url("../images/g.jpg");
+    background-position: center center;
+}
 
 
 h1{
@@ -25,4 +33,32 @@ h1{
 p{
     font-family: Arial, Helvetica, sans-serif;
     color:lightskyblue;
+}
+
+div{
+    text-align:center;
+    font-family: 'Barlow', sans-serif;
+}
+fieldset{
+    border-color: chocolate;
+}
+
+li{
+    font-family: fantasy;
+    font-weight: 600;
+    background-color: palegoldenrod;
+}
+
+.left{
+    text-align: left;
+    color:honeydew
+}
+ol[type="a"] {
+    list-style-type: lower-alpha;
+    background: red;
+}
+
+h3,h4,h5{
+    background: burlywood;
+    color:cyan;
 }

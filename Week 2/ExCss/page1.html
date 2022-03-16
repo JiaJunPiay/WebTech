@@ -2,12 +2,103 @@
 <html lang="en">
 <head>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+        th{
+            color:seashell;
+            background-color: midnightblue;
+        }
+        label{
+            color:red;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 1</title>
 </head>
 <body>
+
+    <fieldset>
+        <legend>Welcome to my CSS page</legend>
+        <h1>
+            H1 without a inline style get styled with internal/external css
+        </h1>
+        <h1 style="color:greenyellow">
+            H1 with inline style gets their inline style priortise first
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto doloribus eum voluptate deserunt! Praesentium dolore id, ipsam repellendus perferendis, neque modi, repellat voluptatum nisi cumque tempore iusto dolor illum?</p>
+        
+        <div>This is a font from google fonts
+        <pre class="left">
+            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;500;600&display=swap');
+            font-family: 'Barlow', sans-serif;
+
+        </pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fuga aliquam aperiam esse laborum alias iusto officiis at rerum soluta et, quasi similique. Odio et voluptates alias, velit deleniti atque?</div>
+        <div class="left">
+            <h1>H1 inside a div with a class</h1>
+            <p class="pColor">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus numquam repellendus soluta
+                deleniti ad! Quis, vero deleniti! Nam, quidem quos eos nihil blanditiis est quia nobis quasi minima quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti, voluptatibus qui maiores laborum
+                expedita facilis nihil repellendus dolore minus at laboriosam, asperiores iste illo tempore, error
+                reprehenderit totam. Placeat!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis dolorem, et placeat dolorum consectetur
+                aliquam libero accusamus deserunt. Labore repellendus architecto fugiat quasi officia, quibusdam debitis
+                culpa temporibus veniam!
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus numquam repellendus soluta
+                deleniti ad! Quis, vero deleniti! Nam, quidem quos eos nihil blanditiis est quia nobis quasi minima quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti, voluptatibus qui maiores laborum
+                expedita facilis nihil repellendus dolore minus at laboriosam, asperiores iste illo tempore, error
+                reprehenderit totam. Placeat!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis dolorem, et placeat dolorum consectetur
+                aliquam libero accusamus deserunt. Labore repellendus architecto fugiat quasi officia, quibusdam debitis
+                culpa temporibus veniam!
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus numquam repellendus soluta
+                deleniti ad! Quis, vero deleniti! Nam, quidem quos eos nihil blanditiis est quia nobis quasi minima quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti, voluptatibus qui maiores laborum
+                expedita facilis nihil repellendus dolore minus at laboriosam, asperiores iste illo tempore, error
+                reprehenderit totam. Placeat!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis dolorem, et placeat dolorum consectetur
+                aliquam libero accusamus deserunt. Labore repellendus architecto fugiat quasi officia, quibusdam debitis
+                culpa temporibus veniam!
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi temporibus numquam repellendus soluta
+                deleniti ad! Quis, vero deleniti! Nam, quidem quos eos nihil blanditiis est quia nobis quasi minima quo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti, voluptatibus qui maiores laborum
+                expedita facilis nihil repellendus dolore minus at laboriosam, asperiores iste illo tempore, error
+                reprehenderit totam. Placeat!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis dolorem, et placeat dolorum consectetur
+                aliquam libero accusamus deserunt. Labore repellendus architecto fugiat quasi officia, quibusdam debitis
+                culpa temporibus veniam!
+            </p>  
+        </div>
+        <div>
+            <ol type="a">
+                Attribute types with OL with type = a
+                <li>Test 1</li>
+                <li>Test 1</li>
+                <li>Test 1</li>
+                <li>Test 1</li>
+            </ol>
+        </div>
+        <pre>
+            ol[type="a"] {
+                list-style-type: lower-alpha;
+                background: red;
+            }
+        </pre>
+    </fieldset>
+    <h3>Grouping selectors with h3</h3>
+    <h4>h4</h4>
+    <h5>and h5</h5>
     <fieldset>
         <legend>Forms</legend>
         <form action="page2.html">
@@ -17,7 +108,7 @@
                     
                 </tr>
                 <tr>
-                    <td><label for="filename">Name of File</label></td>
+                    <td><label for="filename" style="color:rebeccapurple;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Name of File</label></td>
                     <td><input type="text" name="filename" placeholder="Enter filename here" /></td>
                 </tr>
                 <tr>
