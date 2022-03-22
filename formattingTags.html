@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formatting Tags</title>
+    </head>
+    <body>
+
+        <!-- This is a test comment -->
+
+        <p>P tag</p>
+
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+
+        <strong>Bold/Strong</strong> <br />
+        <em>Italics/Emphasis</em>
+
+        <!-- Formatting Tags-->
+        <b>B tag</b> <br/>
+        <strong>Strong tag</strong><br />
+        <i>I tag</i> <br />
+        <em>Emphasis tag</em> <br />
+        <strike>Strike tag</strike><br />
+        <mark>Mark tag</mark><br />
+        <p><small>P + small tag</small></p><br />
+        <ins>Insert tag</ins> <br />
+        <del>Del tag</del> <br />
+        <sup>Superscipt</sup> tag <br />
+        <sub>Subscript</sub> tag <br />
+
+        <!--Quatation and Citiation Tag -->
+        <blockquote>Blockquote tag</blockquote>
+        <address>Address tag</address>
+        <q>Quotation tag</q> <br />
+        <cite>Cite tag</cite>
+        <pre>Pre tag <!--Give it no changes to the page and how they write it-->
+            
+        
+        </pre>
+        <hr />
+        <h3>Different types of ordered list</h3>
+        <ol>
+            <li>Ordered List 1</li>
+            <li>Ordered List 2</li>
+            <li>Ordered List 3</li>
+            <li>Ordered List 4</li>
+        </ol>
+        <ol type="a">
+            <li>Alphabet Ordered List 1</li>
+            <li>Alphabet Ordered List 2</li>
+            <li>Alphabet Ordered List 3</li>
+            <li>Alphabet Ordered List 4</li>
+        </ol>
+        <ol type="A">
+            <li>Alphabet Ordered List 1</li>
+            <li>Alphabet Ordered List 2</li>
+            <li>Alphabet Ordered List 3</li>
+            <li>Alphabet Ordered List 4</li>
+        </ol>
+        <ol type="i">
+            <li>i Ordered List 1</li>
+            <li>i Ordered List 2</li>
+            <li>i Ordered List 3</li>
+            <li>i Ordered List 4</li>
+        </ol>
+        <ol type="I">
+            <li>I Ordered List 1</li>
+            <li>I Ordered List 2</li>
+            <li>I Ordered List 3</li>
+            <li>I Ordered List 4</li>
+        </ol>
+        <ol start="50">
+            <li>Different starting number Ordered List 1</li>
+            <li>Different starting number Ordered List 2</li>
+            <li>Different starting number Ordered List 3</li>
+            <li>Different starting number Ordered List 4</li>
+        </ol>
+        <ol type="a" start="g">
+            <li>Alphabet Ordered List 1</li>
+            <li>Alphabet Ordered List 2</li>
+            <li>Alphabet Ordered List 3</li>
+            <li>Alphabet Ordered List 4</li>
+        </ol>
+        <hr />
+        <h3>Different types of unordered list</h3>
+        <ul>
+            <li>Unordered List 1</li>
+            <li>Unordered List 2</li>
+            <li>Unordered List 3</li>
+            <li>Unordered List 4</li>
+        </ul>
+        <ul type="square">
+            <li>Unordered List 1</li>
+            <li>Unordered List 2</li>
+            <li>Unordered List 3</li>
+            <li>Unordered List 4</li>
+        </ul>
+        <ul type="circle">
+            <li>Unordered List 1</li>
+            <li>Unordered List 2</li>
+            <li>Unordered List 3</li>
+            <li>Unordered List 4</li>
+        </ul>
+        <hr />
+        <!--Attribute Tags-->
+        <h1 align="center">Center align</h1>
+        <h1 align="right">Right align</h1>
+        <h1 style="color:blue;">Color Tag</h1>
+
+        <h1><a href="https://www.google.com">This is a link tag</a></h1>
+        <h1><a href="mailto:example@gmail.com">This is a email link</a></h1>
+
+        <br />
+        <table border="1" width="60%" height="60%">
+            <thead>
+                <tr><th>Header</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Cell 1</td></tr>
+                <tr><td>Cell 2</td></tr>
+            </tbody>
+        </table>
+        <br />
+
+        <!--Different colour declartion-->
+        <h1 style="color:blue">Blue color using color name</h1>
+        <!--Hexademical repsented by six 0s -> (00)[00]<00> (00) represents red [00], represents green <00>, represents blue -->
+        <h1 style="color:#000000">Black color using hexadecimal name</h1>
+        <!--Giving colour using RGB index, each colour can give a range of 0-255, 0 meaning no contribution of the colour-->
+        <h1 style="color:rgb(255,0,0)">Red colour using RGB index</h1>
+        <!--Opacity of the color using rgba, range from 0-1-->
+        <h1 style="color:rgba(255,0,0,0.5)">Red colour with opacity using RGBA index</h1>
+        <!--HUE-Saturation-Lightness
+            - HUE can be ranged fro 0 - 360
+            - Saturation and Lightness representated by precentage
+        -->
+        <h1 style="color:hsl(50, 100%, 50%)">Yellow colour using HSL</h1>
+
+        <marquee>Marquee Tag</marquee>
+
+        <!--Two types of tags
+            1. Block level elements
+                - Occupied the complete block
+                - <h1></h1>
+                - <p></p>
+            2. Inline level element
+                - Does not occupied the whole block
+                -<a></a>
+        -->
+        <div style="font-family:'Times New Roman', Times, serif; background-color:green">
+            <table border="1" width="60%" height="60%">
+                <thead>
+                    <tr><th>Header</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cell 1</td></tr>
+                    <tr><td>Cell 2</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <br />
+        <!--Colspan and Rowspan-->
+        <table border="1" width="80%" height="100%">
+            <caption style="caption-side: bottom;">Caption style tag</caption>
+            <tbody>
+                <tr>
+                    <td colspan="4">1</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td rowspan="2">4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">1</td>
+                    <td colspan="2">3</td>
+                </tr>
+            </tbody>
+        </table>
+        <span></span>
+        <p>Embed Tag</p>
+        <p>Can display media files, such as picture, video and pef</p>
+        <embed src="images/blankpfp.webp" height="50%" width="50%" />
+        <embed src="videos/samplevideo.mp4" height="50%" width="50%"  />
+        <embed src="doc/Java Handout.pdf" height="auto" width="50%"  />
+        <p>Image Tag</p>
+        <img height="100" src="images/water.jpg" alt="Missing image"/>
+        
+        <h1 style="font-size:12vw">vw size</h1>
+        <h1 style="font-size:12em">em size</h1>
+        <h1>default size</h1>
+
+        <h1>Legend Tag/Fieldset/Forms/Inputs</h1>
+        <fieldset>
+            <legend><h1>Forms</h1></legend>
+
+            <form action="formattingTagsSuccess.html">
+                <label>Username : </label><input type="text" name="username" placeholder="Enter username" required/><br />
+                <!--Password has the autofocus, so when the user loads the page, it will go to the password field immediately-->
+                <label>Password : </label><input type="password" name="password" placeholder="Enter password" required autofocus/><br />
+                <label>Radio Example</label><br/>
+                <label for="radio1">Option 1</label><input id="radio1" type="radio" name="radio" value="r1">
+                <label for="radio2">Option 2</label><input id="radio2" type="radio" name="radio" value="r2"> <br />
+                <label>Checkbox Example</label><br />
+                <label>Checkbox Answer 1 </label><input type="checkbox" name="checkbox" value="cb1">
+                <label>Checkbox Answer 2 </label><input type="checkbox" name="checkbox" value="cb2">
+                <label>Checkbox Answer 3 </label><input type="checkbox" name="checkbox" value="cb3"> <br />
+                <label>Dropdown List Example </label> 
+                <select name="ddl">
+                    <option value="ddl1">DDL1</option>
+                    <option value="ddl2">DDL2</option>
+                    <option value="ddl3">DDL3</option>
+                </select> <br />
+                <label>Range </label><input type="range" id="points" name="points" min="0" max="10"> <br />
+                <label>Upload File </label><input type="file" name="Reset" placeholder="Enter date" /> <br />
+                <input type="submit" name="submit" value="Submit"/>
+
+            </form>
+        </fieldset>
+        
+        <h1>iFrame</h1>
+        <div id="profile">
+            <iframe src="feedbackForm.html" width="100%" height="600" style="border:1px solid black;">
+            </iframe>
+        </div>
+
+        <div id="3">
+            <h1>Map Tag</h1>
+            <p align="center">
+                <img src="images/Kichijoji.webp" usemap="#mapImage" alt="kichijoji" />
+                <map name="mapImage">
+                    <area shape="rect" coords="170,334,510,530" href="https://goo.gl/maps/MesDxwzwR4kQYX1D7">
+                    <area shape="circle" coords="1697,702,120" href="https://goo.gl/maps/uVZcLqK7V2sC88ydA">
+                    <area shape="rect" coords="825,155,1060,360" href="https://goo.gl/maps/1VK28xho94NECkpf7">
+                    <area shape="poly" coords="693,736,705,1044,624,1039,664,740" href="#blah1">
+    
+                </map>
+            </p>
+        </div>
+
+
+    </body>
+</html>
