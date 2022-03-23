@@ -1,0 +1,41 @@
+ul{
+    list-style-type: none;
+    float:right;
+    
+}
+
+li{
+    display: inline;
+    padding:8px;
+}
+
+li a{
+    padding: 8px 8px;
+}
+
+li a:hover{
+    background-color: gold;
+}
+
+nav{
+    padding:8px;
+    display: inline;
+    float:right;
+}
+nav a:hover{
+    background-color: red;
+}
+
+nav a{
+    padding: 8px 8px;
+}
+.active{
+    background-color: darkgoldenrod;
+    color:white;
+}
+
+div{
+    background-color: aqua;
+    width: 100%;
+    padding: 50px 50px 50px;
+}
