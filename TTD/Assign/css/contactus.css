@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 1em;
+  }
+
+  .bodyH1{
+    font-size: 5em;
+    text-align: center;
+  }
+
+.contactLabel{
+    text-align: right;
+}
+
+input{
+      width: 75%;
+      font-size: 1.9rem;
+      width: 75%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+  }
+
+  textarea{
+      width:75%;
+      height:5em;
+      font-size: 1em;
+  }
+
+.successContainer{
+    display: grid;
+    grid-template-columns: 100%;
+    
+  }
+
+.successRow{
+    row-gap: 3em;
+    column-gap: 3em;
+}
