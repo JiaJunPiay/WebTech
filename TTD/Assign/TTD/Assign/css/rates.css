@@ -1,0 +1,16 @@
+.roomcontainer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-row-gap: 1em;
+  }
+
+
+.link{
+      text-decoration: none;
+      text-align: left;
+      transition: 0.5s;
+  }
+
+.link:hover{
+    font-weight: bold;
+}

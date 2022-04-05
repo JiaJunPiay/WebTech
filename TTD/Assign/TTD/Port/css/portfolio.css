@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    color:white;
+    background: url(../image/bg.webp);
+    background-color: black;
+    background-repeat:repeat-y;
+    background-size:100%;
+    background-attachment: fixed;
+    font-size: 1.2em;
+
+}
+.right{
+    text-align:right;
+    margin: 3em;
+}
+
+.center{
+    text-align: center;
+}
+
+#header{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subheader{
+    font-size: 3em;
+    /*text-align: center;*/
+    text-transform: uppercase;
+}
+
+.subbody{
+    width: 97%;
+    margin: 2rem;
+
+}
+
+#footer{
+    position:absolute;
+    bottom:0;
+    width:99%;
+}
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+th{
+    font-size: 2em;
+}
+
+td{
+    font-size: 1.5em;
+}
+
+a:link{
+    color: wheat;
+}
+
+a:visited{
+    color:lightgreen;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  width: 50%;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+ol li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  font-family: 'Abril Fatface', serif;
+  line-height: 1;
+}
+
+input{
+    width: 75%;
+    font-size: 1.5rem;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+textarea{
+    width:74%;
+    height:5em;
+    font-size: 0.8em;
+    font-family: 'Fredoka', sans-serif;
+}

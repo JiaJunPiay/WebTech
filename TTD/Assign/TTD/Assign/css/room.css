@@ -1,0 +1,29 @@
+.roomcontainer{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.roomImageRow{
+    grid-row: 1 / 3;
+}
+
+.roomgridHeader{
+    font-size: 2rem;
+    text-align: center;
+    row-gap:0;
+}
+.roomgrid{
+    font-size: 2rem;
+    padding-left:20px;
+    row-gap:0;
+}
+.roomImage{
+    object-fit: cover;
+    width: 30rem;
+    height: 40rem;
+  }
+
+.roomDesc{
+    padding:20px;
+    text-align: justify;
+}
